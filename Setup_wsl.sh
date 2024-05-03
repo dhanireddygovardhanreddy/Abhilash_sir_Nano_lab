@@ -2,7 +2,11 @@
 
 echo 'Please run this script in home directory' 
 
-sleep 5
+sleep 2
+
+cd ..
+
+pwd
 
 sudo apt update
 

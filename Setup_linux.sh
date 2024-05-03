@@ -8,6 +8,10 @@ echo 'Please run this script in home directory'
 
 sleep 5
 
+cd ..
+
+pwd
+
 sudo apt update
 
 #install quantum-espresso
