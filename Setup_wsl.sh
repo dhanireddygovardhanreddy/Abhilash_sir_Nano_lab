@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo ' THis Script is only for WSL'
+
+sleep 2
+
 echo 'Please run this script in home directory' 
 
 sleep 2
