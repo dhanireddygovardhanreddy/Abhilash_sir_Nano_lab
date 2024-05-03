@@ -14,7 +14,7 @@ sudo apt update
 sudo apt install --no-install-recommends libfftw3-dev quantum-espresso
 
 #install Xcrysden
-sudo apt-get install --no-install-recommends tk libglu1-mesa libtogl2 libfftw3-3 libxmu6 libgfortran4 imagemagick openbabel
+sudo apt-get install --no-install-recommends tk libglu1-mesa libtogl2 libfftw3-3 libxmu6 libgfortran5 imagemagick openbabel
 
 #install critic2
 sudo apt install cmake gfortran
