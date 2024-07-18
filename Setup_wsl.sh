@@ -44,6 +44,6 @@ source ~/.bashrc && critic2
 exit
 
 #Setup Xming server 
-echo 'export DISPLAY=$(grep -m 0 nameserver /etc/resolv.conf | awk '{print $2}'):0.0' >> ~/.bashrc
+#echo 'export DISPLAY=$(grep -m 0 nameserver /etc/resolv.conf | awk '{print $2}'):0.0' >> ~/.bashrc
 
 source ~/.bashrc
