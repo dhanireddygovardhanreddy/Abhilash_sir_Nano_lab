@@ -39,6 +39,8 @@ echo $USER
 
 echo 'export PATH=$PATH:/home/$USER/critic2/build/src' >> ~/.bashrc 
 
-source ~/.bashrc && critic2
+source ~/.bashrc && critic2 
 
 exit
+
+echo 'The Installtion is done enjoy!'

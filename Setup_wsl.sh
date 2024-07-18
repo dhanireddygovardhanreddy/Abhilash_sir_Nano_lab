@@ -47,3 +47,5 @@ exit
 #echo 'export DISPLAY=$(grep -m 0 nameserver /etc/resolv.conf | awk '{print $2}'):0.0' >> ~/.bashrc
 
 source ~/.bashrc
+
+echo 'The Installtion is done enjoy!'
