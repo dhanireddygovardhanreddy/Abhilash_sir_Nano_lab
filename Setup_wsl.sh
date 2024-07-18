@@ -20,6 +20,12 @@ sudo apt install --no-install-recommends libfftw3-dev quantum-espresso
 #install Xcrysden
 sudo apt-get install --no-install-recommends tk libglu1-mesa libtogl2 libfftw3-3 libxmu6 libgfortran4 imagemagick openbabel
 
+wget http://www.xcrysden.org/download/xcrysden-1.6.2-linux_x86_64-shared.tar.gz
+
+tar -xzvf xcrysden-1.6.2-linux_x86_64-shared.tar.gz
+
+echo 'export PATH=$PATH:/home/$USER/xcrysden-1.6.2-linux_x86_64-shared.tar.gz' >> ~/.bashrc
+
 #install critic2
 sudo apt install cmake gfortran
 
